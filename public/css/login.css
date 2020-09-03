@@ -1,0 +1,154 @@
+body,ul,h1,h2,h3,h4,h5,h6{
+	margin: 0;
+	padding: 0;
+}
+a{
+    text-decoration: none;
+}
+/* 页头的头部 */
+.header>.logo::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.header>.logo>a {
+    float: left;
+}
+.header>.logo>a>img{
+    width: 152px;
+    height: 133px;
+    margin-left: 210px;
+}
+.header>.logo>span{
+    float: left;
+    font-size: 30px;
+    color: #555;
+    margin-top: 50px;
+    margin-left: 30px;
+    font-weight: bold;
+}
+/* 页头的主要内容 */
+.header>.header_main{
+    background: #fd7a72;
+    height: 470px;
+}
+.header>.header_main::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.header>.header_main>.header_main_left{
+    margin-left: 200px;
+    float: left;
+}
+.header>.header_main>.header_main_right{
+    position: relative;
+    float: right;
+    margin-right: 200px;
+    margin-top: 20px;
+    width: 375px;
+    background: #fff;
+}
+.header>.header_main>.header_main_right h3{
+    color: #666;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 16px;
+}
+.header>.header_main>.header_main_right>.resgister{
+    position: absolute;
+    right: 20px;
+    top: 17px;
+	background: #e6e6e6;
+    padding: 5px;
+}
+.header>.header_main>.header_main_right>.resgister a{
+    color: #0e90d2;
+}
+.header>.header_main>.header_main_right>.resgister a:hover{
+    color: #095f8a;
+}
+.header>.header_main>.header_main_right .uname,.upwd{
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.header>.header_main>.header_main_right> .uname input,.upwd input{
+    width: 230px;
+    height: 25px;
+    text-indent: 1em;
+    /* border: none; */
+    outline: none;
+}
+.header>.header_main>.header_main_right>.uname img{
+    vertical-align: middle;
+}
+.header>.header_main>.header_main_right>.upwd img{
+    vertical-align: middle;
+    margin-left: -5px;
+}
+.header>.header_main>.header_main_right>.pwd_box{
+    margin: 60px 0 0 30px;
+}
+.header>.header_main>.header_main_right>.pwd_box::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.header>.header_main>.header_main_right>.pwd_box span{
+    font-size: 14px;
+    color: #333333;
+}
+.header>.header_main>.header_main_right>.pwd_box a{
+    float: right;
+    margin-right: 20px;
+    color: #0e90d2;
+    font-size: 14px;
+}
+.header>.header_main>.header_main_right>.bttn input{
+    width: 80%;
+    background: #0e90d2;
+    color: #fff;
+    border-radius: 5px;
+    padding: 8px 0;
+    margin:20px 0 0 35px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.header>.header_main>.header_main_right>.wechat{
+    margin-bottom: 45px;
+}
+.header>.header_main>.header_main_right>.wechat h5{
+    color: #333333;
+    margin: 10px 0 0 30px;
+}
+.header>.header_main>.header_main_right>.wechat ul{
+    list-style: none;
+    margin: 20px 0 0 10px;
+}
+.header>.header_main>.header_main_right>.wechat ul::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.header>.header_main>.header_main_right>.wechat ul li{
+    float: left;
+}
+.header>.header_main>.header_main_right>.wechat ul li a{
+    color: #000000;
+    font-size: 14px;
+}
+.header>.header_main>.header_main_right>.wechat ul li a img{
+    vertical-align: middle;
+    margin-left: 15px;
+}
+.header>.header_main>.header_main_right>.wechat ul li a:hover{
+    color: #095f8a;
+}
+.footer{
+    text-align: center;
+    margin-top: 40px;
+    color: #666;
+    font-size: 14px;
+    line-height: 20px;
+}

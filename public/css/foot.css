@@ -1,0 +1,173 @@
+/* 底部 */
+/* 多快好省 */
+.footer{
+    position: relative;
+    width: 100%;
+}
+.footer>.footer_title{
+    margin-top: 60px;
+    position: relative;
+    border-bottom: 1px solid #dedede;
+    padding: 28px 0;
+}
+.footer>.footer_title>ul{
+    margin:0 auto;
+    width: 1150px;
+}
+.footer>.footer_title>ul::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.footer>.footer_title>ul>li{
+    float: left;
+}
+.footer>.footer_title>ul>li:not(:first-child){
+    margin-left: 93px;
+}
+.footer>.footer_title>ul>li>a>i{
+    width: 36px;
+    height: 43px;
+    background: url("../images/footer/ico_service.png") no-repeat;
+    display: inline-block;
+}
+.footer>.footer_title>ul>li>a>i.icon_2{
+    background-position: 0 -42px;
+}
+.footer>.footer_title>ul>li>a>i.icon_3{
+    background-position: 0 -85px;
+}
+.footer>.footer_title>ul>li>a>i.icon_4{
+    background-position: 0 -128px;
+}
+.footer>.footer_title>ul>li>a>span{
+    color: #444;
+    font-size: 18px;
+    font-weight: bold;
+    vertical-align:50%;
+    margin-left: 15px;
+}
+/* 底部中部——购物指南 */
+.footer>.footer_main{
+    width: 1150px;
+    position: relative;
+    color:#555;
+    margin-top: 5px;
+    border-bottom: 1px solid #dedede;
+    padding: 20px 0;
+    margin: 0 auto;
+}
+.footer>.footer_main::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.footer>.footer_main>ul{
+    float: left;
+    margin-left: 120px;
+}
+.footer>.footer_main>ul>h5{
+    font-weight: bold;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+.footer>.footer_main>ul>li>a{
+    color: #333;
+    font-size: 12px;
+}
+.footer>.footer_main>ul>li>a:hover{
+    color: #c81623;
+}
+.footer>.footer_main>ul:last-child>h5{
+    text-align: center;
+}
+.footer>.footer_main>ul:last-child>li>p{
+    text-align: left;
+    font-size: 13px;
+    width: 200px;
+}
+.footer>.footer_main>ul:last-child>li>a{
+    text-align: right;
+    display: block;
+}
+/* 底部尾部——关于我们 */
+.footer>.footer_bottom{
+    position: relative;
+    text-align: center;
+}
+.footer>.footer_bottom>.footer_bottom_top{
+    width: 970px;
+    margin: 0 auto;
+}
+.footer>.footer_bottom>.footer_bottom_top>ul{
+    margin: 0 auto;
+    margin-top: 25px;
+}
+.footer>.footer_bottom>.footer_bottom_top>ul::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.footer>.footer_bottom>.footer_bottom_top>ul>li{
+    float: left;
+}
+.footer>.footer_bottom>.footer_bottom_top>ul>li>a{
+    color: #666;
+    font-size: 12px;
+}
+.footer>.footer_bottom>.footer_bottom_top>ul>li>a:hover{
+    color: #c81623;
+}
+.footer>.footer_bottom>.footer_bottom_top>ul>li:not(:last-child)::after{
+    content: "丨";
+    display: inline-block;
+    vertical-align:middle;
+    font-size: 10px;
+    margin: 0 5px;
+}
+/* 底部尾部——京公网 */
+.footer>.footer_bottom>.footer_bottom_main{
+    position: relative;
+    text-align: center;
+    margin-top: 5px;
+}
+.footer>.footer_bottom>.footer_bottom_main>span{
+    color: #666;
+    font-size: 12px;
+}
+.footer>.footer_bottom>.footer_bottom_main>span:not(:last-child)::after{
+    content: "丨";
+    display: inline-block;
+    vertical-align:middle;
+    font-size: 10px;
+    margin: 0 5px;
+}
+/* 底部尾部——icon */
+.footer>.footer_bottom>.footer_bottom_bottom{
+    position: relative;
+    margin-top: 10px;
+}
+.footer>.footer_bottom>.footer_bottom_bottom>.site{
+    background: url("../images/footer/ico_footer.png");
+    display: inline-block;
+    width: 103px;
+    height: 32px;
+}
+.footer>.footer_bottom>.footer_bottom_bottom>.icon_1{
+	background-position: 0 -150px;
+}
+.footer>.footer_bottom>.footer_bottom_bottom>.icon_2{
+	background-position: -104px -150px;
+}
+.footer>.footer_bottom>.footer_bottom_bottom>.icon_3{
+	background-position: 0 -183px;
+}
+.footer>.footer_bottom>.footer_bottom_bottom>.icon_4{
+	background-position: -104px -183px;
+}
+.footer>.footer_bottom>.footer_bottom_bottom>.icon_5{
+	background-position: 0 -216px;
+}
+.footer>.footer_bottom>.footer_bottom_bottom>.icon_6{
+	background-position: -104px -216px;
+}

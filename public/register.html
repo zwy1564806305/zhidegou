@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="icon" href="./images/header/5.png">
+    <link rel="stylesheet" href="./css/register.css">
+</head>
+<body>
+    <!-- 页头 -->
+    <header class="header">
+        <div class="logo">
+            <a href="">
+                <img src="./images/header/logo.jpg" alt="">
+            </a>
+        </div>
+        <div class="header_main">
+            <!-- 大图 -->
+            <div class="header_left">
+                <img src="./images/header/big.jpg" alt="">
+            </div>
+            <div class="header_right">
+                <h3 class="zc box_bottom">用户注册</h3>
+                <h3 class="phone_register">手机号注册</h3>
+                <div class="resgister_email">
+                    <div class="uname">
+                        <img src="./images/login/yhm.png" alt="">
+                        <input onblur="checkName()" type="text" placeholder="用户注册" name="uname">
+                    </div>
+                    <div class="upwd">
+                        <img src="./images/login/mm.png" alt="">
+                        <input type="password" placeholder="设置密码" name="upwd">
+                    </div>
+					<div class="upwd">
+					    <img src="./images/login/mm.png" alt="">
+					    <input type="password" placeholder="确认密码">
+					</div>
+                    <div class="email">
+                        <img src="./images/header/email.png" alt="">
+                        <input type="email" placeholder="请输入邮箱账号" name="email">
+                    </div>
+                    <div class="pwd_box">
+                        <input type="checkbox">
+                        <span>
+                            点击表示您同意商城的<a href="#">《服务协议》</a>
+                        </span>
+                    </div>
+                    <div class="bttn">
+                        <input onclick="register()" type="submit" value="注册">
+                    </div>
+                </div>
+                <div class="register-telphone">
+                    <div class="uname">
+                        <img src="./images/header/phone.png" alt="">
+                        <input onblur="checkName()" type="text" placeholder="请输入手机号">
+                    </div>
+                    <div class="code">
+                        <img src="./images/header/href.png" alt="">
+                        <input type="text" placeholder="请输入验证码">
+                        <button>获取</button>
+                    </div>
+                    <div class="upwd">
+                        <img src="./images/login/mm.png" alt="">
+                        <input type="password" placeholder="设置密码">
+                    </div>
+                    <div class="upwd">
+                        <img src="./images/login/mm.png" alt="">
+                        <input type="password" placeholder="确认密码">
+                    </div>
+                    <div class="pwd_box">
+                        <input type="checkbox">
+                        <span>点击表示您同意商城的<a href="#">《服务协议》</a></span>
+                    </div>
+                    <div class="bttn-1">
+                        <input onclick="register()" type="submit" value="注册">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- 页尾 -->
+    <footer>
+        <div class="footer">
+            <p>本网站直接或间接向消费者推销商品或者服务的商业宣传均属于“广告” 如有雷同 纯属巧合</p>
+            <p>Copyright © 2017 - 2020 zdg.com 版权所有</p>
+            </div>
+    </footer>
+</body>
+<script src="js/register.js" type="text/javascript" charset="utf-8"></script>
+</html>

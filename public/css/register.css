@@ -1,0 +1,155 @@
+body,ul,h1,h2,h3,h4,h5,h6{
+	margin: 0;
+	padding: 0;
+}
+a{
+	text-decoration: none;
+}
+.header>.logo a img{
+    margin-left: 210px;
+    width: 10%;
+}
+.header>.header_main{
+	background: #fd7a72;
+	height: 470px;
+}
+.header>.header_main::after{
+	clear: both;
+}
+.header>.header_main>.header_left{
+	float: left;
+	margin-left: 200px;
+}
+.header>.header_main>.header_right{
+	width: 360px;
+	height: 410px;
+	position: relative;
+	float: right;
+	margin-right: 200px;
+	margin-top: 20px;
+	background: #fff;
+}
+.header>.header_main>.header_right h3.zc{
+	width: 110px;
+	color: #666;
+	padding-top: 20px;
+	font-size: 16px;
+	margin-left: 46px;
+	text-align: center;
+}
+.header>.header_main>.header_right>.box_bottom{
+	padding: 1px;
+	border-bottom:1px solid #0E90D2 ;
+}
+.header>.header_main>.header_right h3.phone_register{
+	width: 110px;
+	color: #666;
+	font-size: 16px;
+	margin-left: 180px;
+	margin-top: -22px;
+	text-align: center;
+}
+/* 用户注册 */
+.header>.header_main>.header_right>.resgister_email{
+	/* display: none; */
+	position: absolute;
+	left: 20px;
+}
+.header>.header_main>.header_right .uname,.upwd,.email,.code{
+	margin-top: 30px;
+	margin-left: 30px;
+}
+
+.header>.header_main>.header_right .uname input,.upwd input,.email input,code input{
+	width: 230px;
+	height: 25px;
+	text-indent: 1em;
+	border: none;
+	outline: none;
+}
+.header>.header_main>.header_right .uname img,.upwd img,.email img,.code img{
+	vertical-align: middle;
+}
+.header>.header_main>.header_right>.register-telphone .uname img{
+	margin-left: -3px;
+}
+.header>.header_main>.header_right .upwd img{
+	margin-left: -5px;
+}
+.header>.header_main>.header_right .email img,.code img{
+	margin-left: -1px;
+}
+.header>.header_main>.header_right>.resgister_email>.pwd_box>span{
+	font-size: 14px;
+	color: #333333;
+}
+.header>.header_main>.header_right .pwd_box{
+	margin: 20px 0 40px 30px;
+}
+.header>.header_main>.header_right>.resgister_email>.pwd_box>span a:hover{
+	text-decoration: underline;
+}
+.header>.header_main>.header_right>.resgister_email>.bttn input{
+	width: 80%;
+	color: #fff;
+	background: #0e90d2;
+	padding: 8px 0;
+	margin-left: 40px;
+	border: none;
+	outline: none;
+	cursor: pointer;
+}
+
+/* 手机号注册 */
+.register-telphone{
+	display: none;
+	position: absolute;
+	/* top: 50px; */
+	left: 20px;
+}
+.header>.header_main>.header_right .code input{
+	width: 230px;
+	height: 25px;
+	text-indent: 1em;
+	border: none;
+	outline: none;
+}
+.header>.header_main>.header_right>.register-telphone>.pwd_box>span{
+	font-size: 14px;
+	color: #333333;
+}
+.header>.header_main>.register-telphone .pwd_box{
+	margin: 20px 0 40px 30px;
+}
+.header>.header_main>.header_right>.register-telphone>.pwd_box>span a:hover{
+	text-decoration: underline;
+}
+.header>.header_main>.header_right .code button{
+	color: #0e90d2;
+	border: 1px solid #dddddd;
+	background:#fff;
+	padding: 8px;
+	cursor: pointer;
+	position: absolute;
+	top: 90px;
+	left: 250px;
+	outline: none;
+}
+.header>.header_main>.header_right>.register-telphone>.bttn-1 input{
+	width: 80%;
+	color: #fff;
+	background: #0e90d2;
+	padding: 8px 0;
+	margin-left: 40px;
+	border: none;
+	outline: none;
+	cursor: pointer;
+}
+/* 页脚 */
+.footer{
+	text-align: center;
+	margin-top: 40px;
+	color: #333333;
+	font-size: 14px;
+	line-height: 20px;
+}

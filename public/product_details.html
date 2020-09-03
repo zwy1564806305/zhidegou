@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>详情页</title>
+    <link rel="stylesheet" href="./css/head.css">
+    <link rel="stylesheet" href="./css/foot.css">
+    <link rel="stylesheet" href="./css/product_details.css">
+</head>
+
+<body>
+    <div class="head" id="head">
+        <!-- 头部导航 -->
+        <div class="head_top">
+            <div class="head_main">
+                <ul>
+                    <li class="denglu">
+                        <a href="http://127.0.0.1:8080/login.html">你好，请登录</a>
+                        <a class="active" href="http://127.0.0.1:8080/register.html">免费注册</a>
+                    </li>
+                    <li class="space"></li>
+                    <li>
+                        <a href="#">我的订单</a>
+                    </li>
+                    <li class="space"></li>
+                    <li class="dropdown dropdown_border">
+                        <a href="#">我的账户</a>
+                        <div class="dd_main zh">
+                            <ul class="row1">
+                                <li><a href="#">待处理订单</a></li>
+                                <li><a href="#">消息</a></li>
+                                <li><a href="#">待修退货物</a></li>
+                                <li><a href="#">我的问答</a></li>
+                                <li><a href="#">降价商品</a></li>
+                                <li><a href="#">我的关注</a></li>
+                            </ul>
+                            <ul class="row2">
+                                <li><a href="#">我的猫粮</a></li>
+                                <li><a href="#">我的优惠券</a></li>
+                                <li><a href="#">我的萌宠</a></li>
+                                <li><a href="#">我的狗粮</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="space"></li>
+                    <li>
+                        <a href="#">VIP用户</a>
+                    </li>
+                    <li class="space"></li>
+                    <li>
+                        <a href="#">关注微信</a>
+                    </li>
+                    <li class="space"></li>
+                    <li class="dropdown dropdown_border">
+                        <a href="#">客户服务</a>
+                        <div class="service">
+                            <ul class="service_list">
+                                <li><a class="customer" href="#">客户</a></li><br>
+                                <li><a href="#">帮助中心</a></li>
+                                <li><a href="#">售后服务</a></li>
+                                <li><a href="#">在线客服</a></li>
+                                <li><a href="#">意见建议</a></li>
+                                <li><a href="#">电话客服</a></li>
+                                <li><a href="#">客服邮箱</a></li>
+                                <li><a href="#">金融咨询</a></li>
+                                <li><a href="#">全球客服</a></li>
+                            </ul>
+                            <ul>
+                                <li><a class="customer" href="#">商户</a></li><br>
+                                <li><a href="#">帮助中心</a></li>
+                                <li><a href="#">售后服务</a></li>
+                                <li><a href="#">在线客服</a></li>
+                                <li><a href="#">意见建议</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="space"></li>
+                    <li class="mobile">
+                        <a href="#">手机版</a>
+                        <i></i>
+                        <div class="phone">
+                            <img src="./images/header/boqii-app.jpg" alt="">
+                        </div>
+                        <div class="mobile_main">
+                            <div class="mobile_item">
+                                <div>
+                                    <img src="./images/header/boqii-app.jpg" alt="">
+                                </div>
+                                <div class="mobile_item_content">
+                                    <p class="mobile_item_content_title"><a href="#">手机客户端</a></p>
+                                    <p class="mobile_item_content_content"><a href="#">新人专属大礼包</a></p>
+                                    <p class="mobile_item_content_download">
+                                        <a class="mobile_item_content_download_iphone" href="#"></a>
+                                        <a class="mobile_item_content_download_android" href="#"></a>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="mobile_item">
+                                <div>
+                                    <img src="./images/header/boqii-app.jpg" alt="">
+                                </div>
+                                <div class="mobile_item_content">
+                                    <p class="mobile_item_content_title">
+                                        <a href="#">微信小程序</a>
+                                    </p>
+                                    <p class="mobile_item_content_content1">
+                                        <a href="#">微信扫一扫关注最高获得180元惊喜礼包</a>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="mobile_item">
+                                <div>
+                                    <img src="./images/header/boqii-app.jpg" alt="">
+                                </div>
+                                <div class="mobile_item_content">
+                                    <p class="mobile_item_content_title"><a href="#">手机客户端</a></p>
+                                    <p class="mobile_item_content_content"><a href="#">老用户专属大礼包</a></p>
+                                    <p class="mobile_item_content_download">
+                                        <a class="mobile_item_content_download_iphone" href="#"></a>
+                                        <a class="mobile_item_content_download_android" href="#"></a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- 头部搜索 -->
+        <div class="head_middle">
+            <div class="head_middle_logo">
+                <a href="index.html">
+                    <img src="./images/header/logo.jpg" alt="">
+                </a>
+            </div>
+            <div class="head_middle_search">
+                <table></table>
+                <input type="text" placeholder="空气净化器"><a href="#"><img src="./images/header/search.png" alt=""></a>
+            </div>
+            <div class="search-key">
+                <ul>
+                    <li><a href="#" class="hot">空气净化器</a></li>
+                    <li><a href="#">无花果</a></li>
+                    <li><a href="#" class="hot">苹果手机</a></li>
+                    <li><a href="#">霍尼韦尔 Honeywell</a></li>
+                    <li><a href="#">飞利浦</a></li>
+                    <li><a href="#">蛋糕</a></li>
+                    <li><a href="#" class="hot">史密斯 A.O.SMITH</a></li>
+                </ul>
+            </div>
+            <!-- 固定搜索框 -->
+            <div class="head_middle_find">
+                <div class="main">
+                    <div class="serchbox">
+                        <div class="serchbox_center">
+                            <a href="index.html"><img src="./images/header/logo.jpg" alt=""></a>
+                            <input type="text" placeholder="空气净化器">
+                            <span><img src="./images/header/search.png" alt=""></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- 导航栏 -->
+        <div class="head_nav">
+            <div class="nav_title">
+                <div class="nav_type">
+                    <span>全部商品分类</span>
+                    <ul class="nav_list">
+                        <li><a href="#">家用电器</a></li>
+                        <li><a href="#">手机/运营商/数码</a></li>
+                        <li><a href="#">蛋糕/点心/坚果</a></li>
+                        <li><a href="#">电脑/办公</a></li>
+                        <li><a href="#">男装/女装/内衣/童装</a></li>
+                        <li><a href="#">熟食/肉类/鸡蛋</a></li>
+                        <li><a href="#">户外/运动/男鞋</a></li>
+                        <li><a href="#">食品/酒类/生鲜/特产</a></li>
+                        <li><a href="#">母婴/玩具/乐器</a></li>
+                        <li><a href="#">女鞋/箱包/珠宝</a></li>
+                        <li><a href="#">图书/音像/电子书</a></li>
+                    </ul>
+                </div>
+            </div>
+            <ul id="a">
+                <li><a href="#" class="active">首页</a></li>
+                <li><a href="#">海外购</a></li>
+                <li><a href="#">电器城</a></li>
+                <li><a href="#">限时购</a></li>
+                <li><a href="#">团购</a></li>
+                <li><a href="#">精品超市</a></li>
+                <li><a href="#">会员专区</a></li>
+            </ul>
+        </div>
+    </div>
+    <!-- 商品详情 -->
+    <div class="content">
+        <div class="title">
+            <h5>首页></h5>
+        </div>
+        <div class="content_m">
+            <div class="content_l">
+                <div class="content_l_top">
+                    <!-- 左侧 -->
+                    <div class="small_img">
+                        <!-- 滑块 -->
+                        <div class="slide"></div>
+                        <img src="./images/products/md/5a3a0f31N6c7774bd.jpg">
+                        <div class="superMark"></div>
+                    </div>
+                    <!-- 右侧    -->
+                    <div class="show">
+                        <img src="./images/products/md/5a3a0f31N6c7774bd.jpg" alt="" class="jane">
+                    </div>
+                </div>
+                <div class="content_l_b">
+                    <ul>
+                        <li>
+                            <a href="javascript:">
+                                <img src="./images/banner/arrow-left.png" alt="">
+                            </a>
+                        </li>
+                        <li class="active">
+                            <img src="./images/products/sm/5a3a0f31N6c7774bd.jpg" alt="">
+                        </li>
+                        <li>
+                            <img src="./images/products/sm/5645aa5cN21cf7db5.jpg" alt="">
+                        </li>
+                        <li>
+                            <img src="./images/products/sm/5645aa5dN908aa869.jpg" alt="">
+                        </li>
+                        <li>
+                            <img src="./images/products/sm/5645aa5eN79b0983d.jpg" alt="">
+                        </li> 
+                        <li>
+                            <img src="./images/products/sm/5645aa5eN79b0983d.jpg" alt="">
+                        </li>   
+                        <li>
+                            <a href="javascript:">
+                                <img src="./images/banner/arrow-right.png" alt="">
+                            </a>
+                        </li>    
+                    </ul>
+                </div>
+            </div>
+            <div class="content_r">
+                <div class="title">
+                    <h4>飞利浦(PHILIPS)空气净化器6000系列KJ650F-F02(AC6608)家用除雾霾除甲醛除过敏原(静态)</h4>
+                </div>
+                <div class="subtitle">
+                    <p>【疯抢价4999元限时特惠！立即抢购！手慢无！】高端畅销！双侧过滤！颗粒物CADR：710立方米/h！(静态)</p>
+                </div>
+                <div class="price">
+                    <span>售价</span>
+                    <span>￥3999.00(静态)</span>
+                    <p>服务承诺：*退货补运费 *30天无忧退货 *48小时快速退款 *72小时发货(静态)</p>
+                </div>
+                <div class="more">
+                    <div class="huodong">
+                        <span>活动</span>
+                        <span>特价</span>
+                        <span>在线支持享优惠</span>
+                    </div>
+                    <div class="peison">
+                        <span>运费</span>
+                        <span>配送至</span>
+                        <select name="city">
+                            <option value="1">杭州</option>
+                            <option value="2">上海</option>
+                            <option value="3">广州</option>
+                            <option value="4">深圳</option>
+                            <option value="5">北京</option>
+                        </select>
+                        <span>满88包邮</span>
+                    </div>
+                </div>
+                <div class="spec">
+                    <div>
+                        <span>规格</span>
+                    </div>
+                    <div class="spec-show">
+                        <!-- <a class="select" href="#">经典款香槟金AC4076-320立方米/h</a>
+                        <a href="#">精致两居AC6608-710立方米/h</a>
+                        <a href="#">升级数字显示AC3256-400立方米/h</a>
+                        <a href="#">办公室空气消毒机2000系列畅销款</a>
+                        <a href="#">AC6608</a> -->
+                    </div>
+                    <div>
+                        <span>数量</span>
+                    </div>
+                    <div>
+                        <button>-</button>
+                        <input type="text" value="1">
+                        <button>+</button>
+                    </div>
+                </div>
+                <div class="buy">
+                    <a href="javascript:">立即购买</a>
+                    <a href="#">
+                        <img src="./images/header/shop_car1.png">
+                        加入购物车
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 页脚 -->
+    <div class="footer">
+        <div class="footer_title">
+            <ul>
+                <li>
+                    <a href="#">
+                        <i class="icon_1"></i>
+                        <span>品类齐全，轻松购物</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="icon_2"></i>
+                        <span>多仓直发，急速配送</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="icon_3"></i>
+                        <span>正平行货，精致服务</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="icon_4"></i>
+                        <span>天天低价，畅游无忧</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="footer_main">
+            <ul>
+                <h5>购物指南</h5>
+                <li><a href="#">购物流程</a></li>
+                <li><a href="#">会员介绍</a></li>
+                <li><a href="#">生活旅行</a></li>
+                <li><a href="#">常见问题</a></li>
+                <li><a href="#">大家电</a></li>
+                <li><a href="#">联系客户</a></li>
+            </ul>
+            <ul>
+                <h5>支付方式</h5>
+                <li><a href="#">货到付款</a></li>
+                <li><a href="#">在线支付</a></li>
+                <li><a href="#">分期支付</a></li>
+                <li><a href="#">邮局汇款</a></li>
+                <li><a href="#">公司转账</a></li>
+            </ul>
+            <ul>
+                <h5>售后服务</h5>
+                <li><a href="#">售后政策</a></li>
+                <li><a href="#">价格保护</a></li>
+                <li><a href="#">退款说明</a></li>
+                <li><a href="#">返修/退换货</a></li>
+                <li><a href="#">取消订单</a></li>
+            </ul>
+            <ul>
+                <h5>特色服务</h5>
+                <li><a href="#">夺宝岛</a></li>
+                <li><a href="#">DIY装机</a></li>
+                <li><a href="#">延保服务</a></li>
+            </ul>
+            <ul>
+                    <h5>配送覆盖区县</h5>
+                    <li>
+                        <p>已向全国2661个区县提供自营配送服务，支持货到付款、POS
+                        机刷卡和售后上门服务。</p>
+                        <a href="#">查看详情&nbsp;></a>
+                    </li>
+                </ul>
+        </div>
+        <div class="footer_bottom">
+            <div class="footer_bottom_top">
+                <ul>
+                    <li><a href="#">关于我们</a></li>
+                    <li><a href="#">联系我们</a></li>
+                    <li><a href="#">联系客服</a></li>
+                    <li><a href="#">合作招商</a></li>
+                    <li><a href="#">商家帮助</a></li>
+                    <li><a href="#">营销中心</a></li>
+                    <li><a href="#">手机APP</a></li>
+                    <li><a href="#">友情链接</a></li>
+                    <li><a href="#">销售联盟</a></li>
+                    <li><a href="#">风险监测</a></li>
+                    <li><a href="#">隐私政策</a></li>
+                    <li><a href="#">公益</a></li>
+                    <li><a href="#">English Site</a></li>
+                    <li><a href="#">Media & IR</a></li>
+                </ul>
+            </div>
+            <div class="footer_bottom_main">
+                <span>京公网安备 11000002000088号</span>
+                <span>京ICP证070359号 互联网药品信息服务资格证编号(京)-经营性-2014-0008</span>
+                <span>新出发京零 字第大120007号</span>
+            </div>
+            <div class="footer_bottom_main">
+                <span>互联网出版许可证编号新出网证(京)字150号</span>
+                <span>出版物经营许可证</span>
+                <span>网络文化经营许可证京网文[2014]2148-348号</span>
+                <span>违法和不良信息举报电话：4006561155</span>
+            </div>
+            <div class="footer_bottom_main">
+                <span>Copyright © 2004 - 2017  ZHIDEG.COM 版权所有</span>
+                <span>消费者维权热线：4006067733</span>
+                <span>经营证照</span>
+            </div>
+            <div class="footer_bottom_bottom">
+                <a href="#" class="site icon_1"></a>
+				<a href="#" class="site icon_2"></a>
+				<a href="#" class="site icon_3"></a>
+				<a href="#" class="site icon_4"></a>
+				<a href="#" class="site icon_5"></a>
+				<a href="#" class="site icon_6"></a>
+            </div>
+        </div>
+    </div>
+    <!-- 立即购买 -->
+    <div class="wrap">
+        
+    </div>
+    <div class="buy_box">
+        <div class="buy_box_close">
+            <span>x</span>
+        </div>
+        <div class="buy_box_h">
+            <h2>请选择付款方式</h2>
+        </div>
+        <div class="buy_box_b">
+            <button class="active">支付宝</button>
+            <button>微信</button>
+            <button>银行卡</button>
+        </div>
+        <img src="./images/erweima/1.jpg" alt="">
+        <p>￥3999</p>
+        <input type="button" value="已成功付款">
+    </div>
+</body>
+<script src="./js/header.js"></script>
+<script src="./js/product_details.js"></script>
+
+</html>
